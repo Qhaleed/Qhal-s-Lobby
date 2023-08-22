@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wp4347431-kingdom-manga-wallpapers.jpg);
+    opacity: 0.3px;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin: auto;
+    height: 50vh;
+    margin-top: 200px;
+    
+}
+
+
+.B1 {
+    display: block;
+    width: 100px;
+    height: 3vh;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+    
+    
+}
+.B1:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+.B1:active {
+    color: black;
+    background-color: rgb(85, 136, 110);
+    transition: 0s;
+}
+.B1 p {
+    margin: auto;
+}
+input {
+    display: block;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.A1 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.A1:hover {
+    color: white;
+}
+.Sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.A2,.A3 {
+    text-decoration: none;
+    flex-direction:row;
+    padding: 20px;
+}
+.P1 {
+    display: flex;
+    justify-content: center;
+}

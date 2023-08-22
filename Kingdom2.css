@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(3, 3, 3);
+}
+.S1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: rgba(255, 0, 0, 0);
+    width: 80%;
+    height: auto;
+}
+.S1 p {
+    line-height: 40px;
+}
+.img1 {
+    width: auto;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+/*This is where the Navigation bar starts*/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(102, 51, 153, 0);
+
+    justify-content: right;
+    
+}
+.B1,.B2 {
+  display: flex;
+    float: right;
+    margin: 10px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.B1 {
+    background-color: rgba(0, 0, 0, 0);  
+    color: white;  
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.B1 a {
+    text-decoration: none;
+    color: white;
+}
+.B1 a:hover {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+.B1:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.B2 {
+    border: none;
+    border-radius: 2px;
+    background-color: #541f1f;
+    color: white;
+    transition: 0.3s;
+}
+.B2:hover {
+    color: #541f1f;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.B2:active {
+    opacity: 0.1px;
+
+}
+.wiki {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: rgba(194, 148, 148, 0);
+    width: 80%;
+    height: auto;
+}
+.wiki a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/*This is where the body starts*/
+p {
+    color: white;
+}
+.home a {
+    
+   text-decoration: none;
+   color: white;
+   font-size: 40px; 
+    
+}
+.welcome {
+    background-color: #541f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-left: 2px;
+}
+.welcome a {
+    text-decoration: none;
+    color: white;
+    
+}
+.img2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
