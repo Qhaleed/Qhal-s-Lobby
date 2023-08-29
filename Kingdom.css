@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 .container {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
