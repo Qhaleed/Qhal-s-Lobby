@@ -1,6 +1,7 @@
 body {
     background-color: rgb(3, 3, 3);
 }
+
 .S1 {
     margin: auto;
     display: flex;
@@ -15,10 +16,13 @@ body {
     line-height: 40px;
 }
 .img1 {
-    width: auto;
-    height: 500px;
-    position: relative;
-    margin: auto;
+    width: 50%;
+    margin-left: 25%;
+    height: auto;
+    
+    
+    
+   
 }
 /*This is where the Navigation bar starts*/
 .navbar {
