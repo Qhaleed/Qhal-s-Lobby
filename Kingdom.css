@@ -1,11 +1,19 @@
+@import 
+url('https://fonts.googleapis.scom/css2?family=Cinzel&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url(wp4347431-kingdom-manga-wallpapers.jpg);
-    opacity: 0.3px;
+    background: url(3102505.jpg), rgba(0,0,0,0.75);
+
+   background-blend-mode: darken;
     background-size: cover;
     width: auto;
     height: 100%;
+    
+    filter: blur(30%);
+    font-family: 'MedievalSharp', cursive;
+    background-repeat: no-repeat;
 }
 .container {
     width: 400px;
@@ -19,9 +27,40 @@ body {
     margin: auto;
     height: 50vh;
     margin-top: 200px;
+    font-family: cinzel;
+    transition: 0.7s;
+    
     
 }
 
+.container:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+    background: linear-gradient(to bottom left,rgba(0, 0, 0, 0.363),rgba(107, 107, 107, 0.418),#00000027);
+    background-size: 400% 400%;
+    color: black;
+    animation: gradient 3s infinite ease;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+}
+
+    @keyframes gradient{
+
+        
+        
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+
+
+
+    }
 
 .B1 {
     display: block;
@@ -50,17 +89,23 @@ body {
 }
 .B1 p {
     margin: auto;
+    color: black;
+}
+.B1 p:hover {
+    color: white;
 }
 input {
     display: block;
     margin: 20px;
     border: none;
     border-radius: 5px;
-    padding: 3px;
+    padding: 10px;
+    
 }
 .A1 {
     text-decoration: none;
     color: rgb(0, 0, 0);
+   
 }
 .A1:hover {
     color: white;
@@ -76,8 +121,16 @@ input {
     text-decoration: none;
     flex-direction:row;
     padding: 20px;
+    color: white;
 }
 .P1 {
     display: flex;
     justify-content: center;
+    
 }
+p {
+    color: white;
+}
+
+
+ 
