@@ -19,10 +19,15 @@ body {
     width: 50%;
     margin-left: 25%;
     height: auto;
+    transition: 0.7s;
     
     
     
    
+}
+.img1:hover {
+    transition: 0.7s;
+    transform: scale(0.9);
 }
 /*This is where the Navigation bar starts*/
 .navbar {
@@ -104,6 +109,10 @@ body {
 /*This is where the body starts*/
 p {
     color: white;
+}
+p:hover {
+    color: gold;
+    cursor: zoom-in;
 }
 .home a {
     
